@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
 }
@@ -65,9 +66,9 @@ nav ul li a:hover{
     left: 8%;
     transform: translateY(-50%)
 }
-.content img{
-    display: block;
-    margin-left: auto;
+.profile-image {
+    max-width: 300px; /* Set a max width for responsiveness */
+    height: auto;
 }
 h1{
     color: white;
